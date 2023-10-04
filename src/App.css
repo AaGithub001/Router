@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display : flex;
+  flex-direction : row;
+  gap: 20 px ;
+  list-style: none ;
 }
 
 .App-logo {
@@ -35,4 +38,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+header{
+  height:40px;
+  background-color: red;
 }

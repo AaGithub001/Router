@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 function App() {
   return (
     <div className="App">
-    <nav>
+    <nav className='header'>
       <ul>
         <li><Link to="counter"> Counter </Link></li>
         <li><Link to="about"> About </Link></li>
